@@ -39,14 +39,14 @@ body{
 .coloured_text{
     color: red;
 }
-#heading{
-  display: flex;
-  justify-content: center;
-}
 #submit:hover{
   background-color: #45a049;
 }
 .heading_bar{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(208, 228, 27, 0.344);
   padding: 10px;
   margin: 0 auto;
