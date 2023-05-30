@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Details Form</title>
+    <link type="text/css" rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading_bar">
+    <h1 id="heading">Student Registration Form</h1>
+    </div>
+<div class="form_container">
+<form id="form1">
+    <div class="form-group">
+        Name:<span class="coloured_text">*</span> <input class="textbox" type="text" id="name" required><br>
+    </div>
+    <div class="form-group">
+    Age:  <input class="textbox" type="text" id="age"><br>
+    </div>
+    <div class="form-group">
+    College:<span class="coloured_text">*</span> <input class="textbox" type="text" id="clg" required><br>
+    </div>
+    <div class="form-group">
+    Program:<span class="coloured_text">*</span><input class="textbox" type="text" id="pgm" required><br>
+    </div>
+    <div class="form-group">
+    Register Number:<span class="coloured_text">*</span><input class="textbox" type="text" id="reg" required><br>
+    </div>
+    <div class="form-group">
+    College email id:<span class="coloured_text">*</span><input class="textbox" type="text" inputmode="email" id="email" required><br>
+    </div>
+    <div class="form-group">
+    Phone number:<span class="coloured_text">*</span><input class="textbox" type="text" id="pno" required><br>
+    </div>
+    <div class="form-group">
+    Academic year: <input class="textbox" type="text" id="year"><br>
+    </div>
+    <div class="form-group">
+    <input type="submit" value="SUBMIT" id="submit">
+    </div>
+</form>
+</div>
+<script type="text/javascript" src="form.js"></script>
+<script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+</body>
+</html>
