@@ -6,19 +6,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 .textbox{
-    display: block;
+    display: flex;
+    flex: 1;
     justify-content: center;
     margin-top: 10px;
-    width: 100%;
     padding: 10px;
+    width: 90%;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 .form-group{
-  display: block;
+  display: inline;
   justify-content: center;
   align-items: center;
   width: 400px;
@@ -49,4 +52,13 @@ body{
   background-color: rgba(208, 228, 27, 0.344);
   padding: 10px;
   margin: 0 auto;
+}
+#form1{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  width: 400px;
 }
