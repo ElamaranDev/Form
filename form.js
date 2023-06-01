@@ -9,5 +9,6 @@
       .catch(error => console.error('Error!', error.message))
       form.reset();
       window.location.href="success.html";
+      history.replaceState({}, "","success.html");
   })
 
